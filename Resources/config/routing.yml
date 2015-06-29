@@ -1,0 +1,5 @@
+be_adopt_core_homepage:
+    path:     /template
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: 'BeAdoptCoreBundle::frontend_layout.html.twig'
